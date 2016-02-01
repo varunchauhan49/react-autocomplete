@@ -1,5 +1,5 @@
 {
-  "name": "react-autocomplete",
+  "name": "react-autocomplete-search",
   "version": "1.0.0",
   "description": "A react UI for autocomplete results",
   "main": "search.js",
