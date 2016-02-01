@@ -4,7 +4,7 @@
   "description": "A react UI for autocomplete results",
   "main": "search.js",
   "scripts": {
-    "build": "babel search.jsx > search.js",
+    "build": "babel ./react-autocomplete/search.jsx > search.js",
     "test": "jshint . --exclude node_modules",
     "prepublish": "npm run build"
   },
