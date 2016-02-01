@@ -6,7 +6,7 @@
   "scripts": {
     "build": "jsx-loader search.jsx > search.js",
     "test": "jshint . --exclude node_modules",
-    "prepublish": "npm run build && npm run test"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
