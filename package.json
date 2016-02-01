@@ -1,0 +1,52 @@
+{
+  "name": "react-autocomplete",
+  "version": "1.0.0",
+  "description": "A react UI for autocomplete results",
+  "main": "search.js",
+  "scripts": {
+    "build": "jsx-loader search.jsx > search.js",
+    "test": "jshint . --exclude node_modules",
+    "prepublish": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunchauhan49/react-autocomplete.git"
+  },
+  "keywords": [
+    "react",
+    "autocomplete",
+    "search",
+    "list",
+    "results"
+  ],
+  "author": "Varun Chauhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunchauhan49/react-autocomplete/issues"
+  },
+  "browserify": {
+    "transform": [
+      "node-lessify"
+    ]
+  },
+  "dependencies": {
+    "node-lessify": "0.0.10",
+    "react": "^0.14.6"
+  },
+  "peerDependencies": {
+    "react": "^0.14.6",
+    "jsx-loader": "^0.13.2",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.6",
+    "style-loader": "^0.13.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "react": "^0.14.6",
+    "jsx-loader": "^0.13.2",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.6",
+    "style-loader": "^0.13.0"
+  },
+  "homepage": "https://github.com/varunchauhan49/react-autocomplete#readme"
+}
